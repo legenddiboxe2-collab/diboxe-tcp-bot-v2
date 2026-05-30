@@ -4219,7 +4219,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         if not uid:
                             uid = "UnknownUID"
                         nickname = await get_nickname_from_api(uid)
-                        header = f"[C][B][FFD700]Hey {nickname} Welcome to ᴅᴇᴠɪʟ ɢᴜɪʟᴅᴮᴼᵀ!\n\n[C][B][FFFFFF]Type commands to interact with me.\n[C][B][00FF00]Below are all available commands:"
+                        header = f"[C][B][FFD700]Hey {nickname} Welcome to Diboxe Legit's BOt!\n\n[C][B][FFFFFF]Type commands to interact with me.\n[C][B][00FF00]Below are all available commands:"
                         await dl_send_message(response.Data.chat_type, header, uid, chat_id, key, iv)
                         await asyncio.sleep(0.2)
                         group_commands = """[C][B][FFD700]╭──────────╮
@@ -4323,7 +4323,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         dev = f"""[FFFFFF]┌────────────┐
 [00CED1]   BOT INFORMATION
 [FFFFFF]├──────────┤
-[FFFFFF] Developer  → sajan
+[FFFFFF] Developer  → DIBOXE LEGIT
 [FFFFFF] Status     → ONLINE
 [FFFFFF] Version    → ENHANCED V2
 [FFFFFF]└───────────┘"""
